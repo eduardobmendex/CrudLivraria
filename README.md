@@ -99,10 +99,8 @@ ou
 
 <pre><code>3. Para rodar a aplicação localmente, execute:</code></pre>
 
-<pre><code>npm start</code></pre>
+<pre><code>npm run dev</code></pre>
 
-ou
-
-<pre><code>yarn start</code></pre>
+ 
 
  
