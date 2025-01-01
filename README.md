@@ -2,6 +2,8 @@
 
 <p>Este projeto tem como objetivo a criação de um CRUD de livros e autores. O foco é a implementação de funcionalidades básicas de maneira eficiente, usando tecnologias simples e práticas, sem recorrer a meta frameworks ou bibliotecas de UI pesadas. A proposta é demonstrar habilidade na construção de uma aplicação funcional, organizada e bem estruturada.</p>
 
+<h2>Link para acessar o projeto abaixo:<h2>
+<a>https://crudlivraria.netlify.app/</a>
 <h2>Funcionalidades</h2>
 
 <p>A aplicação deverá permitir a realização das seguintes ações para livros e autores:</p>
