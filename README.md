@@ -1,70 +1,136 @@
-Desafio de Front-End: CRUD de Livros e Autores
-Este projeto tem como objetivo a criação de um CRUD de livros e autores. O foco é a implementação de funcionalidades básicas de maneira eficiente, usando tecnologias simples e práticas, sem recorrer a meta frameworks ou bibliotecas de UI pesadas. A proposta é demonstrar habilidade na construção de uma aplicação funcional, organizada e bem estruturada.
+<h1>Desafio de Front-End: CRUD de Livros e Autores</h1>
 
-Funcionalidades
-A aplicação deverá permitir a realização das seguintes ações para livros e autores:
+<p>Este projeto tem como objetivo a criação de um CRUD de livros e autores. O foco é a implementação de funcionalidades básicas de maneira eficiente, usando tecnologias simples e práticas, sem recorrer a meta frameworks ou bibliotecas de UI pesadas. A proposta é demonstrar habilidade na construção de uma aplicação funcional, organizada e bem estruturada.</p>
 
-Para Livros:
-Criar um livro: A criação do livro será feita através de um modal.
-Visualizar todos os livros: Uma tabela irá listar todos os livros cadastrados.
-Visualizar um livro específico: Ao selecionar um livro, suas informações serão exibidas em um modal.
-Excluir um livro: O livro poderá ser excluído após confirmação em um alerta.
-Para Autores:
-Criar um autor: A criação do autor será feita através de um modal.
-Visualizar todos os autores: Uma tabela exibirá todos os autores cadastrados.
-Visualizar um autor específico: O modal permitirá visualizar os detalhes de um autor.
-Excluir um autor: O autor poderá ser excluído após confirmação em um alerta.
-Requisitos
-Modelos
-Livro:
-id (obrigatório)
-name (obrigatório)
-author_id (obrigatório)
-pages (opcional)
-Autor:
-id (obrigatório)
-name (obrigatório)
-email (opcional)
-Regras do Projeto:
-Proibido o uso de meta frameworks, como Next.js e Remix.
-Proibido o uso de Tailwind e SASS.
-Proibido o uso de bibliotecas de UI, como MUI, Chakra UI e Bootstrap.
-Permitido e recomendado o uso de Radix UI para componentes.
-Permitido e recomendado o uso de bibliotecas para formulários, como Formik ou React Hook Form.
-Armazenamento dos dados no navegador: Local Storage ou IndexedDB.
-Tecnologias Permitidas:
-React.js
-Radix UI (para modais e outros componentes UI)
-Formik ou React Hook Form (para gerenciar formulários)
-CSS puro, CSS Modules ou Styled Components (para estilização)
-Requisitos Diferenciais:
-React Context API para gerenciamento de estado global.
-Docker para containerização do projeto.
-TypeScript para tipagem estática.
-JSDoc para documentação do código.
-Testes de componentes com Cypress.
-Código reutilizável: Funções e componentes reutilizáveis.
-Styled Components para estilização.
-Instalação
-Pré-requisitos
-Certifique-se de ter as seguintes ferramentas instaladas em sua máquina:
+<h2>Funcionalidades</h2>
 
-Node.js
-npm ou yarn
-Docker (opcional para containerização)
-Passos para instalação:
-Clone o repositório:
-bash
-Copiar código
-git clone https://github.com/seu-usuario/desafio-crud-livros-autores.git
+<p>A aplicação deverá permitir a realização das seguintes ações para livros e autores:</p>
+
+<h3>Para Livros:</h3>
+<ul>
+  <li><strong>Criar um livro</strong>: A criação do livro será feita através de um modal.</li>
+  <li><strong>Visualizar todos os livros</strong>: Uma tabela irá listar todos os livros cadastrados.</li>
+  <li><strong>Visualizar um livro específico</strong>: Ao selecionar um livro, suas informações serão exibidas em um modal.</li>
+  <li><strong>Excluir um livro</strong>: O livro poderá ser excluído após confirmação em um alerta.</li>
+</ul>
+
+<h3>Para Autores:</h3>
+<ul>
+  <li><strong>Criar um autor</strong>: A criação do autor será feita através de um modal.</li>
+  <li><strong>Visualizar todos os autores</strong>: Uma tabela exibirá todos os autores cadastrados.</li>
+  <li><strong>Visualizar um autor específico</strong>: O modal permitirá visualizar os detalhes de um autor.</li>
+  <li><strong>Excluir um autor</strong>: O autor poderá ser excluído após confirmação em um alerta.</li>
+</ul>
+
+<h2>Requisitos</h2>
+
+<h3>Modelos</h3>
+
+<p><strong>Livro:</strong></p>
+<ul>
+  <li>id (obrigatório)</li>
+  <li>name (obrigatório)</li>
+  <li>author_id (obrigatório)</li>
+  <li>pages (opcional)</li>
+</ul>
+
+<p><strong>Autor:</strong></p>
+<ul>
+  <li>id (obrigatório)</li>
+  <li>name (obrigatório)</li>
+  <li>email (opcional)</li>
+</ul>
+
+<h3>Regras do Projeto:</h3>
+<ul>
+  <li><strong>Proibido</strong> o uso de meta frameworks, como Next.js e Remix.</li>
+  <li><strong>Proibido</strong> o uso de Tailwind e SASS.</li>
+  <li><strong>Proibido</strong> o uso de bibliotecas de UI, como MUI, Chakra UI e Bootstrap.</li>
+  <li><strong>Permitido e recomendado</strong> o uso de Radix UI para componentes.</li>
+  <li><strong>Permitido e recomendado</strong> o uso de bibliotecas para formulários, como Formik ou React Hook Form.</li>
+  <li><strong>Armazenamento dos dados no navegador</strong>: Local Storage ou IndexedDB.</li>
+</ul>
+
+<h3>Tecnologias Permitidas:</h3>
+<ul>
+  <li>React.js</li>
+  <li>Radix UI (para modais e outros componentes UI)</li>
+  <li>Formik ou React Hook Form (para gerenciar formulários)</li>
+  <li>CSS puro, CSS Modules ou Styled Components (para estilização)</li>
+</ul>
+
+<h3>Requisitos Diferenciais:</h3>
+<ul>
+  <li><strong>React Context API</strong> para gerenciamento de estado global.</li>
+  <li><strong>Docker</strong> para containerização do projeto.</li>
+  <li><strong>TypeScript</strong> para tipagem estática.</li>
+  <li><strong>JSDoc</strong> para documentação do código.</li>
+  <li><strong>Testes de componentes</strong> com Cypress.</li>
+  <li><strong>Código reutilizável</strong>: Funções e componentes reutilizáveis.</li>
+  <li><strong>Styled Components</strong> para estilização.</li>
+</ul>
+
+<h2>Instalação</h2>
+
+<h3>Pré-requisitos</h3>
+<p>Certifique-se de ter as seguintes ferramentas instaladas em sua máquina:</p>
+<ul>
+  <li>Node.js</li>
+  <li>npm ou yarn</li>
+  <li>Docker (opcional para containerização)</li>
+</ul>
+
+<h3>Passos para instalação:</h3>
+<pre><code>1. Clone o repositório:</code></pre>
+
+<pre><code>git clone https://github.com/seu-usuario/desafio-crud-livros-autores.git
 cd desafio-crud-livros-autores
-Instale as dependências:
-bash
-Copiar código
-npm install
+</code></pre>
+
+<pre><code>2. Instale as dependências:</code></pre>
+
+<pre><code>npm install</code></pre>
+
 ou
 
-bash
-Copiar código
-yarn install
-Para rodar a aplicação localmente, execute:
+<pre><code>yarn install</code></pre>
+
+<pre><code>3. Para rodar a aplicação localmente, execute:</code></pre>
+
+<pre><code>npm start</code></pre>
+
+ou
+
+<pre><code>yarn start</code></pre>
+
+<pre><code>4. Para rodar os testes (se configurados), execute:</code></pre>
+
+<pre><code>npm test</code></pre>
+
+ou
+
+<pre><code>yarn test</code></pre>
+
+<pre><code>5. Para rodar a aplicação em Docker (se configurado), execute:</code></pre>
+
+<pre><code>docker-compose up --build</code></pre>
+
+<h2>Como Contribuir</h2>
+
+<ol>
+  <li>Fork este repositório.</li>
+  <li>Criar uma nova branch (<code>git checkout -b feature/nome-da-feature</code>).</li>
+  <li>Realizar suas alterações.</li>
+  <li>Testar localmente.</li>
+  <li>Commit suas alterações (<code>git commit -am 'Adiciona nova feature'</code>).</li>
+  <li>Push para a branch (<code>git push origin feature/nome-da-feature</code>).</li>
+  <li>Abrir um Pull Request.</li>
+</ol>
+
+<h2>Licença</h2>
+
+<p>Este projeto está sob a licença MIT - veja o arquivo <code>LICENSE</code> para mais detalhes.</p>
+
+<h2>Contato</h2>
+
+<p>Se você tiver dúvidas ou sugestões, fique à vontade para entrar em contato ou abrir uma issue no repositório.</p>
