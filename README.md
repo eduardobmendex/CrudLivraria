@@ -103,34 +103,4 @@ ou
 
 <pre><code>yarn start</code></pre>
 
-<pre><code>4. Para rodar os testes (se configurados), execute:</code></pre>
-
-<pre><code>npm test</code></pre>
-
-ou
-
-<pre><code>yarn test</code></pre>
-
-<pre><code>5. Para rodar a aplicação em Docker (se configurado), execute:</code></pre>
-
-<pre><code>docker-compose up --build</code></pre>
-
-<h2>Como Contribuir</h2>
-
-<ol>
-  <li>Fork este repositório.</li>
-  <li>Criar uma nova branch (<code>git checkout -b feature/nome-da-feature</code>).</li>
-  <li>Realizar suas alterações.</li>
-  <li>Testar localmente.</li>
-  <li>Commit suas alterações (<code>git commit -am 'Adiciona nova feature'</code>).</li>
-  <li>Push para a branch (<code>git push origin feature/nome-da-feature</code>).</li>
-  <li>Abrir um Pull Request.</li>
-</ol>
-
-<h2>Licença</h2>
-
-<p>Este projeto está sob a licença MIT - veja o arquivo <code>LICENSE</code> para mais detalhes.</p>
-
-<h2>Contato</h2>
-
-<p>Se você tiver dúvidas ou sugestões, fique à vontade para entrar em contato ou abrir uma issue no repositório.</p>
+ 
